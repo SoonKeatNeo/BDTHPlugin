@@ -117,8 +117,8 @@ namespace BDTHPlugin
 				649, 650, 651, 652, 655  // Shirogane
 			};
 
-			if (!valid.Contains(this.pi.ClientState.TerritoryType))
-				return false;
+			/*if (!valid.Contains(this.pi.ClientState.TerritoryType))
+				return false;*/
 
 			// Tool ID is set to rotation.
 			return toolID == 2;
